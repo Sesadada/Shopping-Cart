@@ -1,4 +1,6 @@
-//feature-1
+
+import './App.css';
+
 function App() {
   return (
     <div className="grid-container">
