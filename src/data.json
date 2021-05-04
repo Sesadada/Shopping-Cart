@@ -1,46 +1,46 @@
 {
     "products": [
         {"id": "plant1",
-        "title": "plant1",
+        "title": "Glandula Parafernalis",
         "image": "/images/PLANTS1.jpg",
-        "description": "About Plant n1",
-        "price": 50,
-        "availableSizes": ["10x10", "50x50"]
+        "description": "Glandula Parafernalis",
+        "price": 23,
+        "availableSizes": ["print", "postcard"]
     },
     {"id": "plant2",
-        "title": "plant2",
+        "title": "Fistibus Infernis",
         "image": "/images/PLANTS2.jpg",
-        "description": "About Plant n2",
-        "price": 50,
-        "availableSizes": ["10x10", "50x50"]
+        "description": "Fistibus Infernis",
+        "price": 35,
+        "availableSizes": ["print", "postcard", "poster"]
     },
     {"id": "plant3",
-        "title": "plant3",
+        "title": "Lupae Incubus",
         "image": "/images/PLANTS3.jpg",
-        "description": "About Plant n3",
+        "description": "Lupae Incubus",
         "price": 50,
-        "availableSizes": ["10x10", "50x50"]
+        "availableSizes": ["poster"]
     },
     {"id": "plant4",
-        "title": "plant4",
+        "title": "Camilae Invictae",
         "image": "/images/PLANTS4.jpg",
-        "description": "About Plant n4",
-        "price": 50,
-        "availableSizes": ["10x10", "50x50"]
+        "description": "Camilae Invictae",
+        "price": 20,
+        "availableSizes": ["poster", "postcard"]
     },
     {"id": "plant5",
-        "title": "plant5",
+        "title": "Inquietibus Cati",
         "image": "/images/PLANTS5.jpg",
-        "description": "About Plant n5",
-        "price": 50,
-        "availableSizes": ["10x10", "50x50"]
+        "description": "Inquietibus Cati",
+        "price": 15,
+        "availableSizes": ["postcard"]
     },
     {"id": "plant6",
-        "title": "plant6",
+        "title": "Vanilae Memorandum",
         "image": "/images/PLANTS6.jpg",
-        "description": "About Plant n6",
-        "price": 50,
-        "availableSizes": ["10x10", "50x50"]
+        "description": "Vanilae Memorandum",
+        "price": 70,
+        "availableSizes": ["print", "postcard", "poster"]
     }
 
 
