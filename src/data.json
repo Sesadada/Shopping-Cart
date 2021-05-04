@@ -1,0 +1,48 @@
+{
+    "products": [
+        {"id": "plant1",
+        "title": "plant1",
+        "image": "/images/PLANTS1.jpg",
+        "description": "About Plant n1",
+        "price": 50,
+        "availableSizes": ["10x10", "50x50"]
+    },
+    {"id": "plant2",
+        "title": "plant2",
+        "image": "/images/PLANTS2.jpg",
+        "description": "About Plant n2",
+        "price": 50,
+        "availableSizes": ["10x10", "50x50"]
+    },
+    {"id": "plant3",
+        "title": "plant3",
+        "image": "/images/PLANTS3.jpg",
+        "description": "About Plant n3",
+        "price": 50,
+        "availableSizes": ["10x10", "50x50"]
+    },
+    {"id": "plant4",
+        "title": "plant4",
+        "image": "/images/PLANTS4.jpg",
+        "description": "About Plant n4",
+        "price": 50,
+        "availableSizes": ["10x10", "50x50"]
+    },
+    {"id": "plant5",
+        "title": "plant5",
+        "image": "/images/PLANTS5.jpg",
+        "description": "About Plant n5",
+        "price": 50,
+        "availableSizes": ["10x10", "50x50"]
+    },
+    {"id": "plant6",
+        "title": "plant6",
+        "image": "/images/PLANTS6.jpg",
+        "description": "About Plant n6",
+        "price": 50,
+        "availableSizes": ["10x10", "50x50"]
+    }
+
+
+    ]
+}
