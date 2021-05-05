@@ -9,7 +9,7 @@ import Cart from './components/Cart'
 const App = () => {
 
   const [state, setState] = useState({
-    cartItems: [],
+    cartItems: localStorage.getItem('cartItems') ? JSON.parse(localStorage.getItem('cartItems')): [],
     products: data.products,
     size: "",
     sort: ""
@@ -18,9 +18,9 @@ const App = () => {
   const removeFromCart = (product) => {
     const cartItems = state.cartItems.slice()
     setState({...state, cartItems: cartItems.filter(item => item.id !== product.id)})
-    
+    localStorage.setItem("cartItems", JSON.stringify(cartItems.filter(item => item.id !== product.id)))
   }
-console.log(state)
+
   const addToCart = (product) => {
     const cartItems = state.cartItems.slice()
     let alreadyIn = false
@@ -34,8 +34,8 @@ console.log(state)
       cartItems.push({...product, count: 1})
     }
     setState({...state, cartItems})
+    localStorage.setItem("cartItems", JSON.stringify(cartItems))
   }
-  console.log(state)
 
   const sortProducts = (e) => {
    const sorted = e.target.value
@@ -59,6 +59,11 @@ console.log(state)
     })
   }}
 
+  const createOrder = (order) => {
+    //alert("need to save order for ", order.name)
+    console.log(order.name)
+  }
+
   return (
     <div className="grid-container">
     <header>
@@ -74,7 +79,7 @@ console.log(state)
     <Product  addToCart={addToCart} products={state.products}/>
     </div>
     <div className="sidebar">
-    <Cart removeFromCart={removeFromCart} cartItems={state.cartItems}/>
+    <Cart createOrder={createOrder} removeFromCart={removeFromCart} cartItems={state.cartItems}/>
     </div>
     </div>
       
